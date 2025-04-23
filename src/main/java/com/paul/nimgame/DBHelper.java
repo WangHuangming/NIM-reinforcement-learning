@@ -31,7 +31,6 @@ public class DBHelper {
         }
         File file = new File(resFolder, DB_NAME);
 
-        
         try(FileWriter fileWriter = new FileWriter(file)) {
             for (int i = 0; i < game.getmMaxPick(); ++i) {
                 for (int j = 0; j < game.getStartingSticks(); ++j) {
